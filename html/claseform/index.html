@@ -11,7 +11,7 @@
         <form action="">
             <label for="nombre">
                 <span>¿Cuál es tu nombre?</span>
-                <input type="text" name="nombre" id="nombre" placeholder="Tu nombre" autocomplete="name">
+                <input type="text" name="nombre" id="nombre" placeholder="Tu nombre" autocomplete="name" required>
             </label>
 
             <label for="inicio-platzi">
@@ -26,18 +26,34 @@
 
             <label for="pais">
                 <span>¿En qué pais vives?</span>
-                <input type="texto"  name="pais" id="pais" placeholder="Tu país" autocomplete="country">
+                <input type="texto"  name="pais" id="pais" placeholder="Tu país" autocomplete="country" required>
             </label>
 
             <label for="correo">
                 <span>¿Cuál es tu correo?</span>
-                <input type="email" name="correo" id="correo" placeholder="Tu correo" autocomplete="email">
+                <input type="email" name="correo" id="correo" placeholder="Tu correo" autocomplete="email" required>
             </label>
 
             <label for="cp">
                 <span>¿Cuál es tu código postal?</span>
-                <input type="number" name="cp" id="cp" placeholder="Código Postal" autocomplete="postal-code">
+                <input type="number" name="cp" id="cp" placeholder="Código Postal" autocomplete="postal-code" required>
             </label>
+
+            <select name="cursos" id="">
+                <option value="JavaScript">JavaScript</option>
+                <option value="HTML5">HTML5</option>
+                <option value="CSS3">CSS3</option>
+                <option value="WebStandart">WebStandart</option>
+            </select>
+            <input list="cursos">
+            <datalist id="cursos">
+                <option value="JavaScript"></option>
+                <option value="HTML5"></option>
+                <option value="CSS3"></option>
+                <option value="WebStandart"></option>
+            </datalist>
+            <input type="submit" value="Enviar1">
+            <button type="submit">Enviar2</button>
 
         </form>
     </main>

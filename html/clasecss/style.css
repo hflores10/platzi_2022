@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    color: blue;
+    font-size: 30px;
+}
+
+/* Comentarios en CSS  para clases */
+.parrafo {
+    color: red;
+}
+
+/* ID para id */
+#otrop{
+    color:palegreen;
+    font-size: 24px;
+}
+
+.main-nav {
+    margin-top: 10px;
+    list-style: none;
+    padding-left:0;
+    background-color: #13a4a4;
+    width: 90%;
+    height: 60px;
+}
+
+.main-nav__item{
+    display: inline-block;
+
+
+}
+
+.main-nav__item a{
+    padding: 5px;
+    border: 2px solid;
+    border-radius: 4px;
+    text-decoration: none;
+    background-color: red;
+    font-size: 25px;
+    color:skyblue;
+
+
+}
+
+ .main-nav__item a:hover{
+    color:white;
+}
+
+.main-nav__item a:active{
+    color: black ;
+}
+
+.main-nav__item::after{
+    content: "|";
+}
