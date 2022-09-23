@@ -14,10 +14,10 @@ body{
 .container{
     border: 0.3rem solid black;
     display: flex;
-    flex-direction:row-reverse;
+    /* flex-direction:row-reverse; */
     /* flex-wrap: wrap; */
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     height:50vh;
 }
 
